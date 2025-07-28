@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Trang web bán hàng </h1>
+   <ul>
+    <li><a href="https://www.google.com/">Trang Chủ</a></li>
+    <li><a href="https://www.google.com/">Sản Phẩm</a></li>
+    <li><a href="https://www.google.com/">Giới Thiệu</a></li>
+    <li><a href="https://www.google.com/">Liên Hệ</a></li>
+   </ul>
+    <br />
+
+    <h2> Thông Tin Sản  Phẩm</h2>
+       <table border="2">
+        <thead>
+        <tr>
+            <th> Tên Sản Phẩm </th>
+            <th> Mô Tả</th>
+            <th> Giá </th>
+            <th> Số Lượng</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+             <td>Sản phẩm 1</td>
+             <td> Mô tả sản phẩm 1</td>
+             <td>100000đ</td>
+             <td>10</td>
+            </tr>
+            <tr>
+             <td>Sản phẩm 2</td>
+             <td>Mô tả sản phẩm 2</td>
+             <td>200000đ</td>
+             <td>5</td>
+            </tr>
+            <tr>
+             <td>Sản phẩm 3</td>
+             <td>Mô tả sản phẩm 3</td>
+             <td>300000đ</td>
+             <td>3</td>
+            </tr>
+        </tbody>
+       </table>
+       <br />
+       <h3> Thông tin người dùng </h3>
+
+       <form action="http:/www.myserver.com" method="post">
+        <lable  for="name">Họ và tên :</lable>
+        <input type="text" id="name" name="name" />
+        <br/>
+        <lable  for="email">Email:</lable>
+        <input type="email" id="email" name="email" />
+        <br/>
+        <lable  for="tel">Số điện thoại</lable>
+        <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-45-678"/>
+        <br/>
+        <lable  for="adress">Địa chỉ</lable>
+        <input type="text" id="adress" name="adress" placeholder="TỉnhD Việt Nam"  />
+        <br/>
+            <button>Đặt Hàng</button>
+            <br />
+            <p>&copy; 2023 Trang web bán hàng </p>
+            
+            
+        
+       </form>
+</body>
+</html>
